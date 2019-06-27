@@ -7,13 +7,14 @@
 	<packaging>war</packaging>
 
 	<properties>
+        <project.basedir>./</project.basedir>
 		<jstl.version>1.2</jstl.version>
 		<standard.version>1.1.2</standard.version>
 		<junit.version>3.8.1</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<spring.version>4.1.6.RELEASE</spring.version>
 		<maven.compiler.version>3.6.1</maven.compiler.version>
-       <maven.plugin.version>2.5</maven.plugin.version>
+		<maven.plugin.version>2.5</maven.plugin.version>
 		<servlet.version>2.5</servlet.version>
 		<jackson.version>2.7.3</jackson.version>
 		<jackson-databind.version>2.5.3</jackson-databind.version>
@@ -59,17 +60,17 @@
 			<version>${maven.plugin.version}</version>
 		</dependency>
 
-  <!-- jackson -->
-  <dependency>
-   <groupId>com.fasterxml.jackson.core</groupId>
-   <artifactId>jackson-core</artifactId>
-   <version>${jackson.version}</version>
-  </dependency>
-  <dependency>
-   <groupId>com.fasterxml.jackson.core</groupId>
-   <artifactId>jackson-databind</artifactId>
-   <version>${jackson-databind.version}</version>
-  </dependency>
+		<!-- jackson -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson-databind.version}</version>
+		</dependency>
 
 		<!-- SPRING 框架 -->
 		<dependency>
@@ -119,7 +120,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -128,13 +128,13 @@
 					<configuration>
 						<warName>funGame</warName>
 						<webResources>
-<!-- 							<resource>
-								<directory>${project.parent.basedir}/lib</directory>
+							<resource>
+								<directory>${project.basedir}/lib</directory>
 								<targetPath>WEB-INF/lib</targetPath>
 								<includes>
 									<include>**/*.jar</include>
 								</includes>
-							</resource> -->
+							</resource>
 						</webResources>
 					</configuration>
 				</plugin>
