@@ -12,7 +12,7 @@
 		<standard.version>1.1.2</standard.version>
 		<junit.version>3.8.1</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<spring.version>4.1.6.RELEASE</spring.version>
+		<spring.version>5.3.18</spring.version>
 		<maven.compiler.version>3.6.1</maven.compiler.version>
 		<maven.plugin.version>2.5</maven.plugin.version>
 		<servlet.version>2.5</servlet.version>
