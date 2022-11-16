@@ -17,7 +17,7 @@
 		<maven.plugin.version>2.5</maven.plugin.version>
 		<servlet.version>2.5</servlet.version>
 		<jackson.version>2.7.3</jackson.version>
-		<jackson-databind.version>2.5.3</jackson-databind.version>
+		<jackson-databind.version>2.12.7.1</jackson-databind.version>
 	</properties>
 
 	<dependencies>
